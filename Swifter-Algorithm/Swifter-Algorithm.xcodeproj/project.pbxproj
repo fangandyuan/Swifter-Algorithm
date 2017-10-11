@@ -25,8 +25,14 @@
 /* Begin PBXFileReference section */
 		F330FFF31D1F792F0024F279 /* Swifter-Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swifter-Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F330FFF61D1F792F0024F279 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F3751ED11D1F7A2D006F808A /* 二分法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二分法.playground"; sourceTree = "<group>"; };
-		F3751ED21D1F7A2D006F808A /* 冒泡排序.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "冒泡排序.playground"; sourceTree = "<group>"; };
+		F3751ED11D1F7A2D006F808A /* 二分法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二分法.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3751ED21D1F7A2D006F808A /* 冒泡排序.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "冒泡排序.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3BB372B1D44473D00C6864D /* 快速排序.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "快速排序.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3CE74DE1F8C67A70039E726 /* 链表.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "链表.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3CE74DF1F8CAA690039E726 /* 队列.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "队列.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3CE74E01F8CB4620039E726 /* 哈希表.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "哈希表.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3CE74E11F8CD10E0039E726 /* 树.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "树.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F3CE74E21F8CDFDD0039E726 /* 二叉树.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二叉树.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				F330FFF61D1F792F0024F279 /* main.swift */,
+				F3CE74E21F8CDFDD0039E726 /* 二叉树.playground */,
+				F3CE74E11F8CD10E0039E726 /* 树.playground */,
+				F3CE74E01F8CB4620039E726 /* 哈希表.playground */,
+				F3CE74DF1F8CAA690039E726 /* 队列.playground */,
+				F3CE74DE1F8C67A70039E726 /* 链表.playground */,
 				F3751ED11D1F7A2D006F808A /* 二分法.playground */,
 				F3751ED21D1F7A2D006F808A /* 冒泡排序.playground */,
+				F3BB372B1D44473D00C6864D /* 快速排序.playground */,
 			);
 			path = "Swifter-Algorithm";
 			sourceTree = "<group>";
@@ -221,6 +233,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -228,6 +242,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

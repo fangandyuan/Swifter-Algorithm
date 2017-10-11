@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+import Foundation
 
 //方程式为：f(x) = 0，示例中f(x) = 1+x-x^3
 
